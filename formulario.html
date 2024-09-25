@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Dados de Postagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Dados de Postagem</h2>
+
+  <form>
+    <section class="Informacoes">
+      <div>
+        <label for="servico"><strong>Serviço:</strong></label>
+        <select id="servico" name="servico">
+          <option value="">Selecione...</option>
+          <option value="servico1">Serviço 1</option>
+          <option value="servico2">Serviço 2</option>
+          <option value="servico3">Serviço 3</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="data-postagem"><strong>Data Postagem:</strong></label>
+        <input type="date" id="data-postagem" name="data-postagem">
+      </div>
+
+      <div>
+        <label for="quantidade"><strong>Quantidade:</strong></label>
+        <input type="text" id="quantidade" name="quantidade">
+      </div>
+
+      <div>
+        <label for="job"><strong>JOB:</strong></label>
+        <input type="text" id="job" name="job">
+      </div>
+      <div>
+        <label for="numero-recibo"><strong>Nº Recibo, OCR ou Remessa:</strong></label>
+        <input type="text" id="numero-recibo" name="numero-recibo">
+      </div>
+    </section>
+
+    <section class="Lancamento">
+      <div>
+        <label for="data-lancamento">Data Lançamento:</label>
+        <input type="date" id="data-lancamento" name="data-lancamento" value="2022-12-26">
+      </div>
+
+    </section>
+    <div class="button-container">
+      <button type="submit">Salvar</button>
+      <button type="button">Cancelar</button>
+    </div>
+
+  </form>
+
+</body>
+</html>

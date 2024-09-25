@@ -1,0 +1,77 @@
+
+    body {
+      font-family: sans-serif;
+    }
+
+    /* label {
+      display: block;
+      margin-bottom: 5px;
+    } */
+
+    input[type="text"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    form section{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 0 0 2% 0;
+    }
+
+    form .Informacoes div{
+      width: 12%;
+      display: grid;
+      place-items: center;
+      margin: 0 1%;
+    }
+    form .Lancamento div{
+      width: 12%;
+      display: grid;
+      place-items: left;
+      margin: 0 1%;
+    }
+
+
+    form .Informacoes div label{ 
+      margin: 0 0 30% 0;
+    }
+    form .Informacoes div:nth-child(5) label{
+      text-align: center;
+      margin: 0 0 19% 0;
+    }
+
+    form .Lancamento div label{
+      text-align: left;
+      margin: 0 0 10% 0;
+    }
+    button {
+      padding: 8px 16px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    button[type="submit"]{
+      background-color: #0275d8;
+    }
+    button[type="button"]{
+      background-color: gray;
+      margin-left: 10px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .button-container {
+      margin-left: 15px;
+      text-align: left;
+    }
